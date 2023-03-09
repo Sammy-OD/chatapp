@@ -98,11 +98,11 @@ CHANNEL_LAYERS = {
         'BACKEND': 'channels_postgres.core.PostgresChannelLayer',
         'CONFIG': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'railway',
-            'USER': 'postgres',
-            'PASSWORD': 'yCZOPgC8VePjbUtMODFm',
-            'HOST': 'containers-us-west-175.railway.app',
-            'PORT': '7754',
+            'NAME': env('DB_NAME'),
+		    'USER': env('DB_USER'),
+		    'PASSWORD': env('DB_PASSWORD'),
+		    'HOST': env('DB_HOST'),
+		    'PORT': env('DB_PORT'),
         },
     },
 }
