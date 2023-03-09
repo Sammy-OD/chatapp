@@ -11,7 +11,7 @@ channels-postgres==0.0.5
 constantly==15.1.0
 cryptography==39.0.1
 daphne==4.0.0
-Django==4.1.7
+Django==3.2.18
 django-environ==0.10.0
 hyperlink==21.0.0
 idna==3.4
