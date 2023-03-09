@@ -1,2 +1,2 @@
-#APP_URL
-chatcoder.netlify.app
+#APP_URL\
+[chatcoder.netlify.app](chatcoder.netlify.app)
