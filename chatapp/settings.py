@@ -153,3 +153,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # mysite/settings.py
 # Daphne
 ASGI_APPLICATION = "chatapp.asgi.application"
+
+PYTHON_VERSION="3.8.10"
